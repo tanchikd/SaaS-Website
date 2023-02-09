@@ -25,94 +25,83 @@
    -->
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-sm navbar-light py-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="" width="30" height="24" class="align-text-top" />
-            SaaSup
-          </a>
-          <div class="d-flex align-items-center">
-            <div class="navbar-collapse bg-primary rounded-pill me-5" id="mynavbar">
-              <ul class="navbar-nav my-2 mx-5">
-                <li class="nav-item me-1">
-                  <a class="nav-link text-white px-3" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item me-1">
-                  <a class="nav-link text-white px-3" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown me-1">
-                  <a
-                    class="nav-link dropdown-toggle text-white px-3"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Features
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">bla bla</a></li>
-                    <li><a class="dropdown-item" href="#">another bla bla</a></li>
-                    <li><a class="dropdown-item" href="#">something else bla bla</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown me-1">
-                  <a
-                    class="nav-link dropdown-toggle text-white px-3"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Pages
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">bla bla</a></li>
-                    <li><a class="dropdown-item" href="#">another bla bla</a></li>
-                    <li><a class="dropdown-item" href="#">something else bla bla</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item me-1">
-                  <a class="nav-link text-white px-3" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item me-1">
-                  <a class="nav-link text-white px-3" href="#">Cart (0)</a>
-                </li>
-              </ul>
-            </div>
-            <div class="bg-light rounded-pill">
-              <div class="my-3 mx-3">
-                <a class="p-3 text-reset text-decoration-none" href="#">Sign In</a>
-              </div>
-            </div>
+      <!-- <nav class="navbar navbar-expand-sm py-5"> -->
+      <!-- <div class="container-fluid"> -->
+      <div class="header-wrapper">
+        <a class="header-logo" href="#">
+          <img src="img/logo.svg" alt="" />
+          SaaSup
+        </a>
+        <div class="menu-wrapper">
+          <div class="menu-wrap" id="mynavbar">
+            <ul class="menu">
+              <li class="">
+                <a class="" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="">
+                <a class="" href="#">About</a>
+              </li>
+              <li class="">
+                <a
+                  class="ropdown-toggle text-white px-3"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Features
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">bla bla</a></li>
+                  <li><a class="dropdown-item" href="#">another bla bla</a></li>
+                  <li><a class="dropdown-item" href="#">something else bla bla</a></li>
+                </ul>
+              </li>
+              <li class="">
+                <a
+                  class="dropdown-toggle text-white px-3"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">bla bla</a></li>
+                  <li><a class="dropdown-item" href="#">another bla bla</a></li>
+                  <li><a class="dropdown-item" href="#">something else bla bla</a></li>
+                </ul>
+              </li>
+              <li class="">
+                <a class="" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Cart (0)</a>
+              </li>
+            </ul>
+          </div>
+          <div class="button-sign">
+            <a class="" href="#">Sign In</a>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
 
-    <div class="container mb-5">
+    <div class="container">
       <!-- лишний justify-content-evenly" -->
       <div class="row">
-        <div class="col mt-5 pe-5">
-          <h1 class="fw-bold mt-4">Build your audience and grow your brand</h1>
-          <p class="text-muted">
+        <div class="col-lg-5 col-12">
+          <h1 class="main-heading">Build your audience and grow your brand</h1>
+          <p class="main-text">
             Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.
           </p>
-          <button type="button" class="btn btn-primary rounded-pill py-3 px-5 fs-6">Get Started</button>
-          <button type="button" class="btn btn-light rounded-pill py-1 ps-4 fs-6">
-            Watch Video
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="45"
-              fill="currentColor"
-              class="bi bi-play-circle-fill"
-              viewBox="0 0 16 16">
-              <path
-                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-            </svg>
+          <button type="button" class="btn-start">Get Started</button>
+          <button type="button" class="btn-watch">
+            Watch Video <img src="/img/play-circle-fill.svg" style="width: 50px" />
           </button>
         </div>
-        <div class="col">
+        <div class="col-lg-5 col-12 offset-lg-2">
           <img class="img-fluid" src="img/graph.svg" alt="graph" />
         </div>
       </div>
@@ -123,35 +112,37 @@
         <button type="button" class="btn btn-light text-primary rounded-pill py-3 px-5 fs-6">Features</button>
         <h2 class="fw-bold mx-auto mt-3 mb-5">Powerful features to boost your productivity</h2>
       </div>
-      <div class="card-group">
-        <div class="card border-0 py-5 px-4 text-center">
-          <img class="card-img-top" src="img/secured.svg" alt="graph" />
-          <div class="card-body">
-            <h5 class="card-title">Secured Platform</h5>
-            <p class="card-text">
-              Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
-            </p>
-            <a href="#" class="text-reset">Learn More</a>
+      <div class="row">
+        <div class="card-group">
+          <div class="card border-0 py-5 px-4 text-center">
+            <img class="card-img-top" src="img/secured.svg" alt="graph" />
+            <div class="card-body">
+              <h5 class="card-title">Secured Platform</h5>
+              <p class="card-text">
+                Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
+              </p>
+              <a href="#" class="text-reset">Learn More</a>
+            </div>
           </div>
-        </div>
-        <div class="card border-light rounded-5 bg-light py-5 px-4 text-center">
-          <img class="card-img-top pb-3" src="img/analytics.svg" alt="graph" />
-          <div class="card-body">
-            <h5 class="card-title">Advanced Analytics</h5>
-            <p class="card-text">
-              Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
-            </p>
-            <a href="#">Learn More</a>
+          <div class="card border-light rounded-5 bg-light py-5 px-4 text-center">
+            <img class="card-img-top pb-3" src="img/analytics.svg" alt="graph" />
+            <div class="card-body">
+              <h5 class="card-title">Advanced Analytics</h5>
+              <p class="card-text">
+                Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
           </div>
-        </div>
-        <div class="card border-0 py-5 px-4 text-center">
-          <img class="card-img-top" src="img/automation.svg" alt="graph" />
-          <div class="card-body">
-            <h5 class="card-title">Powerful Automation</h5>
-            <p class="card-text">
-              Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
-            </p>
-            <a href="#" class="text-reset">Learn More</a>
+          <div class="card border-0 py-5 px-4 text-center">
+            <img class="card-img-top" src="img/automation.svg" alt="graph" />
+            <div class="card-body">
+              <h5 class="card-title">Powerful Automation</h5>
+              <p class="card-text">
+                Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.
+              </p>
+              <a href="#" class="text-reset">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -161,7 +152,7 @@
       style="background-image: url(img/bg-coin.svg); background-repeat: no-repeat; background-position: right">
       <div class="row align-items-center">
         <!-- col и card не нужно смешивать -->
-        <div class="col-5 border-light rounded-5 bg-light ps-4 pe-5 py-5">
+        <div class="col-lg-5 border-light rounded-5 bg-light ps-4 pe-5 py-5">
           <div class="py-5">
             <h2 class="fw-bold mb-3">Powerful and easy to use saas builder platform</h2>
             <p class="text-muted mb-3">
@@ -177,7 +168,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <img class="img-fluid my-4" src="img/graph2.svg" alt="graph" />
         </div>
       </div>
@@ -193,12 +184,12 @@
         <div class="col-md-3 rounded-3 py-4 bg-light fw-bold">03. Track analytics</div>
       </div>
       <div class="row justify-content-center pt-5">
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="d-flex mb-3">
-            <div class="col-2">
+            <div class="col-3">
               <img class="img-gluid" src="img/contact.svg" alt="contact" />
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-9 mb-3">
               <h5>Create your account & start your work</h5>
             </div>
           </div>
@@ -208,7 +199,7 @@
           </p>
           <div><button type="button" class="btn btn-dark rounded-pill py-3 px-4">Get Started</button></div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <img class="img-fluid" src="img/info.svg" alt="info" />
         </div>
       </div>

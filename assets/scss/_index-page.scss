@@ -1,0 +1,87 @@
+@import "./variables";
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 0 7rem 0;
+  align-items: center;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: $color-black;
+  font-size: $fs-tittle;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menu-wrap {
+  margin-right: 3rem;
+  align-items: center;
+}
+
+.menu {
+  background-color: #ffffff1a;
+  padding: 1.3rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: $border-radius-default;
+  margin: 0;
+  a {
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  ul {
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+.button-sign {
+  border-radius: $border-radius-default;
+  padding: 1.3rem 1.5rem;
+  background-color: #fff;
+  cursor: pointer;
+  a {
+    padding: 1rem;
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.main-heading {
+  font-size: $fs-heading-1;
+}
+
+.main-text {
+  font-size: $fs-general;
+  color: $color-grey;
+}
+
+.btn-start {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1.2rem 3.5rem;
+  border-radius: $border-radius-default;
+  border: none;
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.btn-watch {
+  background-color: $color-button-grey;
+  color: $color-black;
+  border-radius: $border-radius-default;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 0.7rem 0.5rem 2.5rem;
+}
